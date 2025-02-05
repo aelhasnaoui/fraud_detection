@@ -18,6 +18,10 @@ executing==2.2.0
 Flask==3.1.0
 Flask-Cors==5.0.0
 fonttools==4.55.8
+<<<<<<< HEAD
+=======
+gunicorn==20.1.0
+>>>>>>> d6eba88 (Docker)
 idna==3.10
 ipykernel==6.29.5
 ipython==8.32.0
