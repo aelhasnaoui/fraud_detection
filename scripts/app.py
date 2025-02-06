@@ -39,16 +39,4 @@ def predict():
         return jsonify({"error": str(e)}), 500
 
 if __name__ == '__main__':
-<<<<<<< HEAD
-<<<<<<< HEAD:projects/fraud_detection/scripts/app.py
-    app.run(debug=True)
-=======
-<<<<<<< HEAD:scripts/app.py
     app.run(host='0.0.0.0', port=5000)
-=======
-    app.run(host='0.0.0.0', port=5000)
->>>>>>> 7125c84 (Docker):projects/fraud_detection/scripts/app.py
->>>>>>> d6eba88 (Docker):scripts/app.py
-=======
-    app.run(debug=True)
->>>>>>> 59818e7 (Initial commit for Render deployment)
