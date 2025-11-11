@@ -83,4 +83,3 @@ web: gunicorn -w 4 -b 0.0.0.0:$PORT scripts.app:app
 
 ---
 
-If you want, I can add basic unit tests and a simple `pytest` entry to exercise the preprocessing function and the `/predict` endpoint.
